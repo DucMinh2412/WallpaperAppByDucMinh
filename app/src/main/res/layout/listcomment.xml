@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    app:cardCornerRadius="12dp"
+    android:layout_marginTop="16dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/gray_btn_bg_color"
+        >
+
+        <TextView
+            android:padding="4dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="haha"
+            android:id="@+id/tvauthorname"
+            android:fontFamily="@font/ralewaybold"
+            android:textSize="11dp"
+            />
+
+
+        <TextView
+            android:padding="4dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="haha"
+            android:id="@+id/tvcontent"
+            android:fontFamily="@font/robotoregular"
+            android:textSize="13dp"
+            />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

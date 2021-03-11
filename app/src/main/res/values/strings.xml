@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hot Wallpaper</string>
+    <string name="facebook_app_id">725630451588646</string>
+    <string name="facebook_login_protocol_scheme">fb725630451588646</string>
+</resources>
